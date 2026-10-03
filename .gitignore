@@ -1,0 +1,11 @@
+# .NET
+**/bin/
+**/obj/
+**/.vs/
+
+# Configuración local
+**/appsettings.Development.json
+
+# Vue
+**/node_modules/
+**/dist/
