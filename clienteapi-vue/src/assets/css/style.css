@@ -1,0 +1,128 @@
+
+
+.form-group label {
+  font-size: 0.725rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+  color: #3e3e3e !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.form-control {
+  border-color: #d1d1d1 !important;
+  border-radius: 6px !important;
+  font-size: 0.85rem !important;
+  /* height: calc(1.5em + 0.5rem + 2px) !important; */
+  padding: 0.25rem 0.5rem !important;
+  box-shadow: none !important;
+  
+}
+
+.form-control:focus {
+  border-color: #18181b !important;
+}
+
+.custom-control-label {
+  font-size: 0.825rem !important;
+  color: #27272a !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+}
+
+.table-responsive {
+  border: 1px solid #e4e4e7 !important;
+  border-radius: 4px !important;
+  overflow: hidden !important;
+  margin-top: 0.5rem !important;
+}
+
+.table {
+  margin-bottom: 0 !important;
+  font-size: 0.85rem !important;
+}
+
+.table-bordered, 
+.table-bordered th, 
+.table-bordered td {
+  border: none !important;
+  border-bottom: 1px solid #f4f4f5 !important;
+  vertical-align: middle !important;
+}
+
+.table thead th {
+  background-color: #e6e6e6 !important;
+  color: #202020 !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  font-weight: 900 !important;
+  border-bottom: 1px solid #e4e4e7 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ffffff !important;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #fafafa !important;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f4f4f5 !important;
+}
+
+.badge-success {
+  background-color: #dcfce7 !important;
+  color: #15803d !important;
+  font-weight: 600 !important;
+  font-size: 0.725rem !important;
+  border-radius: 12px !important;
+  padding: 0.35em 1.8em !important;
+}
+
+.badge-danger {
+  background-color: #fee2e2 !important;
+  color: #b91c1c !important;
+  font-weight: 600 !important;
+  font-size: 0.725rem !important;
+  border-radius: 12px !important;
+  padding: 0.35em 1.5em !important;
+}
+
+.table td .btn-outline-danger,
+.table td .btn-outline-success {
+  width: 32px !important;
+  height: 32px !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+}
+
+.table td .btn-outline-danger i,
+.table td .btn-outline-success i {
+  font-size: 0.85rem !important;
+}
+
+.btn-outline-danger {
+  color: #ef4444 !important;
+  background-color: #fef2f2 !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ef4444 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-success {
+  color: #22c55e !important;
+  background-color: #f0fdf4 !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #22c55e !important;
+  color: #ffffff !important;
+}
